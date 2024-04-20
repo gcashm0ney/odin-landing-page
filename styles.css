@@ -1,0 +1,211 @@
+/* Stylesheet for Assignment: Landing Page*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+    background:black;
+    flex: 1,1,100%;
+    justify-content: center;
+    margin: auto;
+}
+
+header,
+.topsection,
+.infosection,
+.quote,
+.signupcontainer,
+footer {
+    display: flex;
+    width: 800px;
+    padding: 32px 100px;
+}
+
+header {
+    height: 50px;
+    justify-content: start;
+    background-color: #1F2937;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+    .leftlink {
+        display: flex;
+        margin-right: auto;
+        font-size: 24px;
+        color: #F9FAF8;
+        padding: 10px;
+        font-weight: 900;
+    }
+
+    .rightlink {
+        display: flex;
+        gap: 24px;
+        font-size: 18px;
+        color: #E5E7EB;
+        padding: 10px;
+    }
+
+.topsection { 
+    background-color:#1F2937;
+    color: white;
+    justify-content: center;
+    gap: 48px;
+}
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+    .right { 
+        display: flex;
+        flex-basis: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: darkgrey;
+    }
+
+    h1 {
+        color: white;
+        font-size: 48px;
+        font-weight:900;
+        margin: 0;
+        padding: 0;
+    }
+
+.infosection {
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+    h2 {
+        font-size: 36px;
+        font-weight: 900;
+        color:#1F2937;
+        margin: 0px;
+    }
+    .infoboxes{
+        display: flex;
+    }
+        .highlight{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            align-items: center;
+            text-align: center;
+        }
+            .infoboxes{
+                display: flex;
+                gap: 16px;
+            }
+                .infopic {
+                    display: flex;
+                    flex: 1 1 100%;
+                    border: solid #3882F6;
+                    border-radius: 10%;
+                    min-height: 150px;
+                    min-width: 150px;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .infotext{
+                    color: darkgrey;
+                    width: 150px;
+                }
+
+.quote {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+}
+    .quotetext {
+        font-size: 36px;
+        font-style: italic;
+        color: #1F2937;
+        padding: 0px 25px;
+        margin-top: auto;
+        margin:0;
+    }
+
+    .speaker {
+        font-size: 24px;
+        text-align: right;
+        font-weight: bold;
+        padding: 0px 50px;
+        margin-bottom: auto;
+        margin: 0;
+    }
+
+.signupcontainer {
+    background: white;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    width: 800px;
+    color: white;
+    padding: 32px 32px;
+    justify-content: center;
+    gap: 48px;
+}
+    .signupleft {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin: 0px;
+    }
+        h5 {
+            font-size: 18px;
+            margin: 0pc;
+            padding: 0pc;
+        }
+
+        .signupleft > p {
+            color: #E5E7EB;
+            margin: 0px;
+            padding: 0px;
+    }
+footer {
+    background-color:#1F2937;
+    justify-content: center;
+    color: white;
+    padding: 0px 100px;
+
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: inherit;
+  }
+
+  button {
+    background-color: white;
+    color: #3882F6;
+    border: #3882F6 solid;
+    border-radius: 10%;
+    transition-duration: 0.4s;
+  }
+    button:hover {
+        color: white;
+        border: white solid;
+        background-color: #3882F6;
+    }
